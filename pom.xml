@@ -29,7 +29,6 @@
             <scope>provided</scope>
         </dependency>
 
-
         <!-- JSTL -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -37,7 +36,6 @@
             <version>1.2</version>
             <scope>runtime</scope>
         </dependency>
-
 
         <!-- SLF4J -->
         <dependency>
@@ -47,14 +45,12 @@
         </dependency>
 
 
-        <!-- mysql -->
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.18</version>
         </dependency>
-
-
 
         <!-- jackson -->
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
@@ -64,7 +60,6 @@
             <version>2.9.4</version>
         </dependency>
 
-
         <!-- commons -->
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -72,15 +67,18 @@
             <version>3.3.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
+            <version>4.0</version>
         </dependency>
 
 
         <dependency>
             <groupId>commons-dbutils</groupId>
             <artifactId>commons-dbutils</artifactId>
+            <version>1.6</version>
         </dependency>
 
 
@@ -91,6 +89,16 @@
             <artifactId>commons-dbcp2</artifactId>
             <version>2.2.0</version>
         </dependency>
+
+
+
+        <!-- cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>2.2</version>
+        </dependency>
+
 
     </dependencies>
 
