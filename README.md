@@ -1,4 +1,4 @@
-## ¼ÓÔØController 
+## ÕûÌå¼Ü¹¹
 
 ### MVC
 dispatchServlet½ÓÊÜHTTPÇëÇó£¬ÊÊÅäºÏÊÊµÄhandler£¬handlerÍ¨¹ı·´ÉäµÃµ½ControllerÊµÀı£¬µÃµ½·µ»ØµÄresult£¬´¦Àíresult²¢·µ»Øjsp»òjsonµ½ä¯ÀÀÆ÷
@@ -8,6 +8,8 @@ dispatchServlet½ÓÊÜHTTPÇëÇó£¬ÊÊÅäºÏÊÊµÄhandler£¬handlerÍ¨¹ı·´ÉäµÃµ½ControllerÊµÀ
 
 ### AOP
 Ê¹ÓÃcglibÊµÏÖ¶¯Ì¬´úÀí£¬²ÉÓÃ×¢½â£¨ÉùÃ÷Ê½£©ÊµÏÖAOP
+
+## ¼ÓÔØController 
 
 ### ControllerHelperÀà
 Í¨¹ıClassHelper,ÎÒÃÇ¿ÉÒÔ»ñÈ¡ËùÓĞ¶¨ÒåÁËController×¢½âµÄÀà£¬Í¨¹ı·´Éä»ñÈ¡¸ÃÀàËùÓĞ´øAction×¢½âµÄ·½·¨£¬´¦ÀíÆäÖĞµÄÇëÇó±í´ïÊ½£¬½ø¶ø»ñÈ¡ÇëÇó·½·¨ÓëÇëÇóÂ·¾¶£¬·â×°Ò»¸öÇëÇó¶ÔÏó£¨Request£©Óë´¦Àí¶ÔÏó£¨Handler£©,×îºó½«Request,handler½¨Á¢Ò»¸öÓ³Éä¹ØÏµ£¬·ÅÈëÒ»¸öAction Map ÖĞ£¬²¢Ìá¹©Ò»¸ö¿É¸ù¾İÇëÇó·½·¨ÓëÇëÇóÂ·¾¶»ñÈ¡´¦Àí¶ÔÏóµÄ·½·¨¡£
